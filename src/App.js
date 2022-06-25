@@ -1,4 +1,4 @@
-import { Navbar, Home, About, Skills, Work } from "./components/";
+import { Navbar, Home, About, Skills, Work, Contact } from "./components/";
 
 import React from "react";
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Contact />
     </div>
   );
 }

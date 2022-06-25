@@ -9,7 +9,7 @@ function Work() {
           <p className="text-4xl font-bold inline border-b-4 border-pink-700">
             Work
           </p>
-          <p className="py-6">Checkout some of my recent work</p>
+          <p className="py-6">{"// Checkout some of my recent work"}</p>
         </div>
 
         {/* Container */}

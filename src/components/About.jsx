@@ -18,10 +18,9 @@ function About() {
           </div>
           <div>
             <p className="text-pink-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              id assumenda reprehenderit corrupti similique neque repudiandae,
-              dolorum harum debitis rem nostrum eum, aperiam quaerat repellendus
-              possimus nihil ut optio iure.
+              As a front-end developer, with the desire to work in a
+              professional environment to be able to apply the knowledge learned
+              via my college and projects.
             </p>
           </div>
         </div>
