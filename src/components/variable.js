@@ -6,6 +6,7 @@ import Github from "../assets/github.png";
 import TailwindCss from "../assets/tailwindcss.png";
 import Gym from "../assets/gym.png";
 import Reflix from "../assets/reflix.png";
+import Shazam from "../assets/shazam.png";
 
 const skills = [
   {
@@ -44,7 +45,7 @@ const works = [
   {
     image: Gym,
     title: "react-gym",
-    url: "/",
+    url: "https://gym-tutor.netlify.app",
     source: "https://github.com/hoangtrung2000/react-exerciseDB",
   },
   {
@@ -52,6 +53,12 @@ const works = [
     title: "react-movie",
     url: "https://react-movie-c82e0.web.app/",
     source: "https://github.com/hoangtrung2000/react-movies",
+  },
+  {
+    image: Shazam,
+    title: "react-shazam",
+    url: "https://nht-shazam.netlify.app",
+    source: "https://github.com/hoangtrung2000/musicShazamAPI",
   },
 ];
 
