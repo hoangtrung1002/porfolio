@@ -43,7 +43,7 @@ function Navbar() {
         </li>
       </ul>
       {/* Hamburger  */}
-      <div onClick={handleClick} className="md:hidden z-20">
+      <div onClick={handleClick} className="z-20 md:hidden">
         {nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -88,8 +88,8 @@ function Navbar() {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]">
             <a
-              className="flex justify-between w-full items-center text-gray-200 "
-              href="https://github.com/hoangtrung2000"
+              className="flex items-center justify-between w-full text-gray-200 "
+              href="https://github.com/hoangtrung1002"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -99,7 +99,7 @@ function Navbar() {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-indigo-500">
             <a
-              className="flex justify-between w-full items-center text-gray-200 "
+              className="flex items-center justify-between w-full text-gray-200 "
               href={Cv}
               target="_blank"
               rel="noreferrer"

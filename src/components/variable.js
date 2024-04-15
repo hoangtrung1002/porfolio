@@ -4,10 +4,11 @@ import Html from "../assets/html.png";
 import CssLogo from "../assets/css.png";
 import Github from "../assets/github.png";
 import TailwindCss from "../assets/tailwindcss.png";
-import Gym from "../assets/gym.png";
+import Staysavvy from "../assets/staysavvy.png";
 import Reflix from "../assets/reflix.png";
 import Shazam from "../assets/shazam.png";
-
+import Snapgram from "../assets/snapgram.png";
+import Yoom from "../assets/yoom.png";
 const skills = [
   {
     url: Html,
@@ -43,10 +44,22 @@ const skills = [
 
 const works = [
   {
-    image: Gym,
-    title: "react-gym",
-    url: "https://gym-tutor.netlify.app",
-    source: "https://github.com/hoangtrung2000/react-exerciseDB",
+    image: Snapgram,
+    title: "snapgram",
+    url: "https://snapgram-xi-blush.vercel.app/",
+    source: "https://github.com/hoangtrung1002/snapgram",
+  },
+  {
+    image: Staysavvy,
+    title: "stay-savvy",
+    url: "https://stay-savvy-rho.vercel.app",
+    source: "https://github.com/hoangtrung1002/staysavvy",
+  },
+  {
+    image: Yoom,
+    title: "yoom",
+    url: "https://zoom-clone-beta-opal.vercel.app",
+    source: "https://github.com/hoangtrung1002/zoom-clone",
   },
   {
     image: Reflix,
